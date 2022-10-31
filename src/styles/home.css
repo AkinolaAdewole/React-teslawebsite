@@ -1,0 +1,78 @@
+.bg1{
+    background-image: url('../pics/t11home.webp');
+    height: 646px;
+    width: 100%;
+    /* background-position: center; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+.teslalogo{
+    height: 80px;
+    width: 100px;
+    /* color: black; */
+}
+
+.model{
+    margin-left: 250px;
+}
+
+.bg2{
+    background-image: url(../pics/t2home.jpg);
+    /* background-position: 100% 100%; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 659px;
+}
+.bg3{
+    background-image: url(../pics/t3home.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 659px
+}
+.bg4{
+    background-image: url(../pics/t4home.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 659px 
+}
+
+.bg5{
+    background-image: url(../pics/t5home.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 659px
+}
+
+.bg6{
+    background-image: url(../pics/t6home.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 659px
+}
+
+.bg7{
+    background-image: url(../pics/t7home.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 659px
+}
+.shop{
+    margin-left: 180px;
+}
+
+.model3{
+    padding-top: 105px;
+    /* padding-left: 00px; */
+}
