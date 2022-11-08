@@ -45,9 +45,7 @@ const Home = () => {
                 <Link to='/ModelS' className="nav-link active" aria-current="page">Model S</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  Model 3
-                </a>
+                <Link className="nav-link active">Model 3</Link>
               </li>
 
               <li className="nav-item">  
@@ -95,15 +93,48 @@ const Home = () => {
 
 
         <h1 className="model3">Model 3</h1>
+        <div> Order online for Touchless Delivery</div>
+
+        <div className="p1">
+          <div className="d-flex">
+              <div>
+                <span className="btn btn1 text-light">Custom Order</span>
+              </div>
+
+                <div className="ps-4">
+                  <span className="btn btn2 text-dark">Existing Inventory</span>
+                </div>
+          </div>
+        </div>
       </div>
 
         {/* second background */}
-      <div className="bg2"></div>
-      <div className="bg3"></div>
-      <div className="bg4"></div>
-      <div className="bg5"></div>
-      <div className="bg6"></div>
-      <div className="bg7"></div>
+      <div className="bg2">
+        <h1 className="modelY">Model Y</h1>
+      </div>
+        {/* Third Background */}
+      <div className="bg3">
+        <h1 className="modelS">Model S</h1>
+      </div>
+         
+         {/* Fourth Background */}
+      <div className="bg4">
+        <h1 className="modelX">Model X</h1>
+      </div>
+      {/* Fifth Background */}
+      <div className="bg5">
+        <h1 className="solarPanels">Solar Panels</h1>
+      </div>
+
+      {/* Sixth Background */}
+      <div className="bg6">
+        <h1 className="solarRoof">Solar Roof</h1>
+      </div>
+
+      {/* Seventh Background */}
+      <div className="bg7">
+        <h1 className="accessories">Accessories</h1>
+      </div>
     </>
   );
 };
