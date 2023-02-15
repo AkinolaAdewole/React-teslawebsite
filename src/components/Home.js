@@ -9,7 +9,8 @@ const Home = () => {
        
         {/* navbar */}
         <nav className=" nav navbar navbar-expand-lg">
-          <div className="teslalogo ms-5  mt-3">
+
+          <div className="teslalogo ms-5  mt-3 t1">
             <h1 class="tds-site-logo tds-align--start">
               <a aria-label="Tesla Logo" class="tds-site-logo-link" href="/">
                 <svg
@@ -27,7 +28,7 @@ const Home = () => {
           </div>
 
           <button
-            className="navbar-toggler mb-4 me-2"
+            className="navbar-toggler mb-4 me-2 button1"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
@@ -98,11 +99,11 @@ const Home = () => {
         <div className="p1">
           <div className="d-flex">
               <div>
-                <span className="btn btn1 text-light">Custom Order</span>
+                <span className="btn btn-dark btn1 text-light">Custom Order</span>
               </div>
 
                 <div className="ps-4">
-                  <span className="btn btn2 text-dark">Existing Inventory</span>
+                  <span className="btn btn-light btn2 text-dark">Existing Inventory</span>
                 </div>
           </div>
         </div>
@@ -111,24 +112,42 @@ const Home = () => {
         {/* second background */}
       <div className="bg2">
         <h1 className="modelY">Model Y</h1>
+        <div> Order online for Touchless Delivery</div>
+
+
+        <div className="p1 ">
+          <div className="d-flex">
+                <div> <span className="btn btn-dark btn1 text-light"> Custom Order</span></div>
+                <div className="ps-4"> 
+                  <span className="btn btn-light btn2 text-dark">Existing Inventory</span>
+                </div>
+          </div>
+        </div>
       </div>
+
+
+
         {/* Third Background */}
       <div className="bg3">
         <h1 className="modelS">Model S</h1>
+        <div> Order online for Touchless Delivery</div>
       </div>
          
          {/* Fourth Background */}
       <div className="bg4">
         <h1 className="modelX">Model X</h1>
+        <div> Order online for Touchless Delivery</div>
       </div>
       {/* Fifth Background */}
       <div className="bg5">
         <h1 className="solarPanels">Solar Panels</h1>
+        <div> Lowest Cost Solar Panels in America</div>
       </div>
 
       {/* Sixth Background */}
       <div className="bg6">
         <h1 className="solarRoof">Solar Roof</h1>
+        <div> Produce Clean Energy From Your Roof</div>
       </div>
 
       {/* Seventh Background */}
