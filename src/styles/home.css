@@ -107,6 +107,9 @@
     padding-top:320px;
     padding-left: 400px;
 }
+@media screen and (max-width:740px){
+    .p1{}
+}
 
 .btn1{
     /* height: 40px; */
